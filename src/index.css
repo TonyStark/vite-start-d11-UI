@@ -1,0 +1,76 @@
+html, body {
+  overflow-x: hidden;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sub-header {
+  background-color: black;
+}
+
+.my-logo {
+  background-color: #D6FF38;
+}
+
+nav a {
+  transition: 0.2s;
+}
+nav a:hover {
+  background-color: #D6FF38;
+}
+
+.hero-section .top-part {
+  padding-block: 30px;
+}
+.hero-section .top-part h1 {
+  font-size: 62px;
+  font-weight: 800;
+  color: black;
+}
+.hero-section .top-part p {
+  background-color: #D6FF38;
+  padding-inline: 15px;
+  font-weight: 200;
+}
+
+.products-section h1 {
+  padding-block: 30px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  color: black;
+}
+.products-section .card img {
+  transition: 0.2s;
+}
+.products-section .card img:hover {
+  transform: scale(1.05);
+}
+
+.hero2-section {
+  margin-top: 50px;
+}
+.hero2-section .left-sec {
+  background-color: #D6FF38;
+}
+.hero2-section .left-sec i {
+  font-size: 62px;
+}
+.hero2-section .left-sec h3 {
+  font-weight: 300;
+}
+.hero2-section .left-sec h1 {
+  font-size: 62px;
+  font-weight: 700;
+}
+.hero2-section .left-sec p {
+  font-size: 20px;
+  font-weight: 300;
+}
+.footer-right {
+  background-color: #D6FF38;
+}/*# sourceMappingURL=index.css.map */
